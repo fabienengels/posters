@@ -13,7 +13,7 @@
 	"magnitude" : [
 		{
 			"publicID" : "smi:scs/0.6/Magnitude/20130328083210.426254.248266",
-			"type" : "MLv"
+			"type" : "MLv",
 			"methodID" : "smi:scs/0.6/trimmed_mean",
 			"mag" : {
 				"uncertainty" : 0.2997696062,
