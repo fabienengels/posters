@@ -594,14 +594,8 @@
             <ITEXT CH="SQL OR NOSQL, WHY NOT BOTH ?"/>
             <para PARENT="Titre"/>
             <para PARENT="Texte"/>
-            <ITEXT FONTSIZE="35" CH="As our SeisComp instance use PostGreSQL as backend. It ensures data integrity using SQL advantages. But due to SeisComP database modeling, it often difficult to query the catalog. Dumping data in a MongoDB database allow us to solve this issue. This architecture brings other advantages :"/>
-            <para PARENT="Texte"/>
-            <para PARENT="Liste"/>
-            <ITEXT FONTSIZE="35" CH="• Complete separation between the detection system and data distribution"/>
-            <para PARENT="Liste"/>
-            <ITEXT FONTSIZE="35" CH="• Possibility to use Map/Reduce algorithm"/>
-            <para PARENT="Liste"/>
-            <ITEXT FONTSIZE="35" CH="• Better performance"/>
+            <ITEXT FONTSIZE="35" CH="As our SeisComp instance use PostGreSQL as backend. It ensures data integrity using SQL advantages. But due to SeisComP database modeling, it often difficult to query the catalog. Dumping data in a MongoDB database allow us to solve this issue. We also take advantages of NoSQL for datamining usage like Map Reduce algorithm and performance gains. About security, this architecture "/>
+            <ITEXT CH="allow us to separate the detection system from the data distribution. "/>
             <trail PARENT="Liste"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
